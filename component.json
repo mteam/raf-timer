@@ -1,0 +1,12 @@
+{
+  "name": "raf-timer",
+  "repo": "mteam/raf-timer",
+  "version": "0.1.0",
+  "dependencies": {
+    "component/bind": "*",
+    "component/raf": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
