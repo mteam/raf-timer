@@ -12,8 +12,12 @@ RafTimer.prototype = {
     this.request();
   },
 
+  pause: function() {
+    raf.cancel(this.id);
+  },
+
   request: function() {
-    raf(this.tick);
+    this.id = raf(this.tick);
   },
 
   tick: function() {
